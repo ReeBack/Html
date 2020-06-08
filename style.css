@@ -1,0 +1,40 @@
+p {
+    font-size: 12px;
+}
+
+div ul {
+    padding: 0px;
+}
+
+
+div ul li ul li a:active {
+    display: none;
+}
+
+.head {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px slategray solid;
+}
+
+.head ul {
+    display: flex;
+}
+.head ul ul {
+    display: block;
+}
+
+.head ul li {
+    width: 20%;
+    padding-left:60px;
+}
+.head {
+    text-decoration: underline;
+}
+
+.head ul li a:hover {
+    color: #000;
+}
+
+.head a :hover {
+    text-decoration: underline;
+}
