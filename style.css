@@ -1,5 +1,17 @@
+body {
+    margin: 0px;
+}
+
+.box1 {
+    margin: auto;
+    max-width: 960px;
+    border: 5px white solid;
+}
+
 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
+    line-height: 1.6em;
 }
 
 div ul {
@@ -13,10 +25,17 @@ div ul li ul li a:active {
 
 .head {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 1px slategray solid;
+    border: 0px slategray solid;
+    color: white;
+    background-color: black;
+}
+
+.head a {
+    color: white;
 }
 
 .head ul {
+    margin: 0px;
     display: flex;
 }
 .head ul ul {
@@ -32,7 +51,7 @@ div ul li ul li a:active {
 }
 
 .head ul li a:hover {
-    color: #000;
+    color: red;
 }
 
 .head a :hover {
