@@ -12,6 +12,7 @@ body {
     margin: auto;
     max-width: 960px;
     border: 5px white solid;
+    height: 700px;
 }
 
 p {
@@ -33,9 +34,10 @@ div ul li ul li a:active {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 0px slategray solid;
     color: white;
-    background-color: black;
+    background-color: #bbb;
     width: 100%;
     margin-top: -20px;
+    border-bottom: black 1px solid;
 }
 
 .head1 {
@@ -79,5 +81,5 @@ div ul li ul li a:active {
 }
 
 .head1 {
-    position: absolute;
+    position: fixed;
 }
