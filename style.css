@@ -7,6 +7,17 @@ body {
     margin-top: 30px;
 }
 
+.header {
+    background: url(header.png);
+    width: 960px;
+    height: 150px;
+}
+
+#hi1 {
+    max-width: 960px;
+    margin: auto;
+}
+
 .box1 {
     margin: auto;
     max-width: 960px;
@@ -25,11 +36,35 @@ body {
 }
 
 .box3 {
-    padding: 200px;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     background-color: cornflowerblue;
-    position: absolute;
+    position: inherit;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    float: left;
+    
+}
+
+.bob4 {
+    background-color: red;
+    width: 75%;
+}
+
+.bob3 {
+    background-color: green;
+    width: 25%;
+}
+
+.bob2 {
+    background-color: lawngreen;
+}
+
+.bob1 {
+    background-color: #000;
 }
 
 .ctrl {
@@ -55,8 +90,7 @@ div ul li ul li a:active {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 0px slategray solid;
     color: white;
-    background-color: #bbb;
-    width: 100%;
+    background-color: black;
     margin-top: -30px;
     border-bottom: black 1px solid;
     z-index: 1100;
@@ -89,9 +123,8 @@ div ul li ul li a:active {
 }
 
 .head1 a:hover {
-    color: red;
+    color: grey;
     display: block;
-    background-color: seagreen;
 }
 
 .head1 ul li ul li {
@@ -104,4 +137,17 @@ div ul li ul li a:active {
 
 .head1 {
     position: fixed;
+}
+
+.by1 {
+    width: 30%;
+    background-color: grey;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.by2 {
+    width: 70%;
+    float: left;
 }
