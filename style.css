@@ -4,15 +4,36 @@
 
 body {
     margin: 0px;
-    padding: 0px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .box1 {
     margin: auto;
     max-width: 960px;
-    border: 5px white solid;
-    height: 700px;
+    border-left: 5px white solid;
+    border-right: 5px white solid;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    position: absolute;
+    z-index: 1002;
+    left: 20px;
+    top: 60px;
+}
+
+.box3 {
+    padding: 200px;
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+    position: absolute;
+}
+
+.ctrl {
+    clear: both;
 }
 
 p {
@@ -36,8 +57,9 @@ div ul li ul li a:active {
     color: white;
     background-color: #bbb;
     width: 100%;
-    margin-top: -20px;
+    margin-top: -30px;
     border-bottom: black 1px solid;
+    z-index: 1100;
 }
 
 .head1 {
