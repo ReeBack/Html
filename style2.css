@@ -1,0 +1,25 @@
+.header {
+    background: url(header.png);
+    width: 960px;
+    height: 150px;
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+}
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.hi1 {
+    clear: both;
+}
+
+.hi1 {
+    float: left;
+}
