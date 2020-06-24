@@ -4,22 +4,43 @@
     height: 150px;
 }
 
+body {
+    margin-top: 20px;
+}
+
+.head1 {
+    position: fixed;
+    margin-top: -20px;
+    background-color: black;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    margin: 0px;
+}
+
 ul li ul li {
     display: none;
 }
 
 ul li:hover ul li {
-    display: block;
+    display: grid;
 }
 ul {
     list-style: none;
     padding: 0px;
 }
 
-.hi1 {
-    clear: both;
+ul li ul {
+    display: block;
 }
 
-.hi1 {
+.dog1 {
     float: left;
+    width: 50%;
+}
+
+.cat1 {
+    clear: both;
 }
