@@ -1,153 +1,19 @@
-* {
-
-}
-
 body {
-    margin: 0px;
-    margin-top: 30px;
+    font-family: sans-serif;
 }
 
-.header {
-    background: url(header.png);
-    width: 960px;
-    height: 150px;
+a {
+    color: blue;
 }
 
-#hi1 {
-    max-width: 960px;
-    margin: auto;
+a:hover {
+    color: black;
 }
 
-.box1 {
-    margin: auto;
-    max-width: 960px;
-    border-left: 5px white solid;
-    border-right: 5px white solid;
+h1 {
+    border-bottom: 1px solid black;
 }
 
-.box2 {
-    width: 100px;
-    height: 100px;
-    background-color: brown;
-    position: absolute;
-    z-index: 1002;
-    left: 20px;
-    top: 60px;
-}
-
-.box3 {
-    width: 100px;
-    height: 100px;
-    background-color: cornflowerblue;
-    position: inherit;
-}
-
-.box {
-    width: 100px;
-    height: 100px;
-    float: left;
-    
-}
-
-.bob4 {
-    background-color: red;
-    width: 75%;
-}
-
-.bob3 {
-    background-color: green;
-    width: 25%;
-}
-
-.bob2 {
-    background-color: lawngreen;
-}
-
-.bob1 {
-    background-color: #000;
-}
-
-.ctrl {
-    clear: both;
-}
-
-p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
-    line-height: 1.6em;
-}
-
-div ul {
-    padding: 0px;
-}
-
-
-div ul li ul li a:active {
-    display: none;
-}
-
-.head1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 0px slategray solid;
-    color: white;
-    background-color: black;
-    margin-top: -30px;
-    border-bottom: black 1px solid;
-    z-index: 1100;
-}
-
-.head1 {
-    padding: 0px;
-    padding: 5px;
-}
-
-.head1 a {
-    color: white;
-    text-decoration: none;
-}
-
-.head1 ul {
-    display: flex;
-    padding-right: 20px;
-    list-style: none;
-    margin: 0px;
-}
-
-.head1 ul ul {
-    display: block;
-    list-style: none;
-}
-
-.head1>ul>li {
-    padding-right: 20px;
-}
-
-.head1 a:hover {
-    color: grey;
-    display: block;
-}
-
-.head1 ul li ul li {
-    display: none;
-}
-
-.head1 ul li:hover ul li {
-    display: block;
-}
-
-.head1 {
-    position: fixed;
-}
-
-.by1 {
-    width: 30%;
-    background-color: grey;
-    float: left;
-    padding: 15px;
-    box-sizing: border-box;
-}
-
-.by2 {
-    width: 70%;
-    float: left;
+em {
+    font-family: serif;
 }
