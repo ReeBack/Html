@@ -1,9 +1,10 @@
 body {
-    font-family: sans-serif;
+    font-family: Verdana, sans-serif;
 }
 
 a {
     color: blue;
+    text-decoration: none;
 }
 
 a:hover {
@@ -16,4 +17,13 @@ h1 {
 
 em {
     font-family: serif;
+}
+
+.b2 {
+    color: red;
+}
+
+.b22 {
+    color: white;
+    background-color: red;
 }
