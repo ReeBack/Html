@@ -42,8 +42,7 @@ em {
     border-bottom-left-radius: 15px;
 }
 
-.bi-alarm-fill {
-    position: absolute;
+.d4 {
     left: 60px;
 }
 
@@ -51,4 +50,23 @@ em {
     p {
         padding: 100px;
     }
+}
+
+.pets {
+    border: 1px solid black;
+    padding: 0px 15px;
+    width: 200px;
+    margin: auto;
+    float: left;
+}
+.cats {
+    text-align: center;
+}
+
+.cats h2, .cats p {
+    text-align: left;
+} 
+
+.add {
+    padding-left: 240px;
 }
