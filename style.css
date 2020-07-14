@@ -1,72 +1,32 @@
 body {
-    font-family: Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6em;
 }
 
-a {
-    color: blue;
-    text-decoration: none;
-}
-
-a:hover {
-    color: black;
-}
-
-h1 {
-    border-bottom: 1px solid black;
-}
-
-em {
-    font-family: serif;
-}
-
-.b2 {
-    color: red;
-    line-height: 50px;
-}
-
-.b22 {
-    color: white;
-    background-color: red;
-    line-height: 30px;
-    height: 300px;
-}
-
-.c3 {
-    padding: 20px;
-    padding-left: 150px;
-    margin: 35px;
-    border: 5px solid black;
-    background-color: blue;
-    color: white;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-}
-
-.d4 {
-    left: 60px;
-}
-
-@media (max-width:500px) {
-    p {
-        padding: 100px;
-    }
-}
-
-.pets {
-    border: 1px solid black;
-    padding: 0px 15px;
-    width: 200px;
-    margin: auto;
+.aa11, .cc33 {
     float: left;
+    width: 50%;
 }
-.cats {
+
+.bb22, .dd44 {
+    margin: 0 50%;
+    width: 50%;
+}
+
+p {
+    padding-top: 0px;
+    padding: 15px;
+    margin: 0px;
+}
+
+.cc33 {
+    background-color: red;
+}
+.qqq {
+    clear: both;
+}
+
+p.ee55 {
+    color: red;
     text-align: center;
-}
-
-.cats h2, .cats p {
-    text-align: left;
-} 
-
-.add {
-    padding-left: 240px;
 }
