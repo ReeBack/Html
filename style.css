@@ -3,23 +3,18 @@
     padding: 0px;
 }
 
-.a1 {
-    background-color: red;
-}
-.b2 {
-    background-color: blue;
+body {
+    margin: auto;
+    max-width: 960px;
+    font-family: Verdana, sans-serif;
+    line-height: 1.6em;
+    background-color: #EEE;
 }
 
-.d4 {
-    background-color: indigo;
+.www {
+    background-color: #FFF;
 }
 
 .qqq {
-    margin: auto;
-    max-width: 960px;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+    width: 100%;
 }

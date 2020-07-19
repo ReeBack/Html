@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.a1 {
+    background-color: red;
+}
+.b2 {
+    background-color: blue;
+}
+
+.d4 {
+    background-color: indigo;
+}
+
+.qqq {
+    margin: auto;
+    max-width: 960px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
