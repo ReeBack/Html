@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: auto;
+    max-width: 960px;
+    font-family: Verdana, sans-serif;
+    line-height: 1.6em;
+    background-color: #EEE;
+}
+
+.www {
+    background-color: #FFF;
+}
+
+.qqq {
+    width: 100%;
+}
