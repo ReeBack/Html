@@ -1,37 +1,33 @@
-var lo1 = 3;
-var lo2 = 4;
-var lo3 = 5;
+var lo1 = Math.round(Math.random() * 4) + 1;
+var lo2 = lo1 + 1;
+var lo3 = lo2 + 1;
 
-var gu;
+var guu;
 var hit = 0;
-var guss = 0;
+var guuss = 0;
 
-var isSunk = false;
+var isSuck = false;
 
-var rom = Math.round(Math.random(1) * 10);
+while (isSuck == false) {
+    guu = prompt("0 - 6");
 
-while (isSunk == false) {
-    gu = prompt("Maybe number 0-6");
-    if (gu < 0 || gu > 6) {
-        alert("Maybe mistake");
-    }
-    else {
-        guss = guss + 1;
-        console.log("ADD " + guss);
+    if (guu < 0 || guu > 6) {
+        alert("Paesh are a look");
+    } else {
+        guuss = guuss + 1;
+        document.write(guuss + " egg ");
 
-        if (gu == lo1 || gu == lo2 || gu == lo3) {
+        if (guu == lo1 || guu == lo2 || guu == lo3) {
             hit = hit + 1;
-            alert("hit");
-
+            alert(hit + "is a look");
+        
             if (hit == 3) {
-                isSunk = true;
-                alert("Bette my!")
+                isSuck = true;
+                alert("the dne")
             }
+        } else {
+            alert("Miss");
         }
     }
-    
+
 }
-
-var st = "yuo took " + guss;
-
-alert(guss);
