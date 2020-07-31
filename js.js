@@ -1,33 +1,25 @@
-var lo1 = Math.round(Math.random() * 4) + 1;
-var lo2 = lo1 + 1;
-var lo3 = lo2 + 1;
-
-var guu;
+var guu = false;
+var bo = 0;
 var hit = 0;
-var guuss = 0;
+var guuss;
 
-var isSuck = false;
+var lo1 = 4;
 
-while (isSuck == false) {
-    guu = prompt("0 - 6");
+while (guu == false) {
+    console.log(guu);
+    guuss = prompt("I are a look 0-6");
 
-    if (guu < 0 || guu > 6) {
-        alert("Paesh are a look");
+    if (guuss < 0 || guuss > 6) {
+        alert("Miss");
     } else {
-        guuss = guuss + 1;
-        document.write(guuss + " egg ");
-
-        if (guu == lo1 || guu == lo2 || guu == lo3) {
+        if (guuss == lo1) {
             hit = hit + 1;
-            alert(hit + "is a look");
-        
-            if (hit == 3) {
-                isSuck = true;
-                alert("the dne")
-            }
-        } else {
-            alert("Miss");
-        }
-    }
 
+            if (hit == 1) {
+                guu = true;
+                console.log(guu);
+                alert("War are amosn");
+            }
+        }   
+    }
 }
