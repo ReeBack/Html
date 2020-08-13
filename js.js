@@ -10,7 +10,7 @@ function bark(name, weg, im) {
 
 function games(im) {
     console.log(";)");
-    im = prompt("I am a");
+    im = prompt("I am a maaa");
     bark("Jov", 21, im);
     
 }
