@@ -1,18 +1,6 @@
-function bark(name, weg, im) {
-    console.log(im);
-    if (weg > 20) {
-        console.log(name + " woog woog");
-    } else {
-        console.log(name + " woooooog");
-    }
-
+function games(name) {
+    name = prompt("Name?")
+    console.log(name + " is a egg.");
 }
 
-function games(im) {
-    console.log(";)");
-    im = prompt("I am a maaa");
-    bark("Jov", 21, im);
-    
-}
-
-games()
+games();
